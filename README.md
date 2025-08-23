@@ -18,8 +18,7 @@ Key questions:
 
 | Jupiter notebook and README               | Description                                                        |
 |--------------------|--------------------------------------------------------------------|
-| `claims_model_static.R`    | Static SIS model with fixed β, γ and MH inference                  |
-| `claims_model_time_varying.R` | Time-varying β(t), γ(t) inference via component-wise MH sampling |
+| `Final Assignment (with NLM extension).ipynb`    | Jupiter notebook for assignment including NLM extension                  |
 | `README.md`         | Project overview (this file)                                      |
 
 | Figures                                                           | Description                                             |
