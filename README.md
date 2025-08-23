@@ -62,12 +62,16 @@ Key questions:
     
 - Revenue vs Price: For Tesla, share price growth broadly follows revenue growth but with a noticeable lag. In contrast, GameStop’s share price spike does not correspond with revenue changes, indicating a speculative price movement.
 
-## **NLM Extension**
+## NLM Extension
 
-- This project was extended by applying linear regression to model the relationship between opening stock price and company revenue at Tesla after a logarithmic transformation to improve normality and model assumptions.
+- This project was extended by myself by applying linear regression to model the relationship between opening stock price and company revenue at Tesla after a logarithmic transformation to improve normality and model assumptions.
 
-- Diagnostic tools, including Q-Q plots, were used to assess residual distributions before and after transformation.
+- Diagnostic tools were used to assess residual distributions before and after transformation. These included:
+  - Residual vs. Fitted Plot: to check non-linearity or heteroscedasticity.
+  - Q-Q Plot: to assess normality of residuals.
+  - Influence Plot: to identify leverage and outlier points.
+  - Kolmogorov-Smirnov (KS) Test: a nonparametric test used to statistically evaluate whether standardized residuals follow a normal distribution.
 
-- Model was then applied to predict the effect of a hypothetical 10% increase in the company's revenue, with results back-transformed to the original scale and accompanied by 95% confidence and prediction intervals,       illustrating both the expected change in the mean stock price and the variability in individual predictions.
+- Model was then applied to predict the effect of a hypothetical 10% increase in the company's revenue, with results back-transformed to the original scale and accompanied by 95% confidence and prediction intervals, illustrating both the expected change in the mean stock price and the variability in individual predictions.
 
 
