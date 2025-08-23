@@ -56,15 +56,18 @@ Key questions:
 
 ## **Results**
 
-- TSLA: [PLACEHOLDER: 1–2 sentences on trend or notable periods]
+- TSLA: Tesla’s share price showed steady growth until around 2019, after which it surged dramatically, peaking in 2021. This period aligns with increasing investor interest and rising revenues.
 
-- GME: [PLACEHOLDER: short note on spikes/volatility]
+- GME: GameStop’s price remained relatively flat until early 2021, when it experienced an extreme short-term spike due to retail investor activity. The volatility was largely disconnected from fundamentals.
     
-- Revenue vs Price: [PLACEHOLDER: any visible relationship/lag]
+- Revenue vs Price: For Tesla, share price growth broadly follows revenue growth but with a noticeable lag. In contrast, GameStop’s share price spike does not correspond with revenue changes, indicating a speculative price movement.
 
-## **Extension**
+## **NLM Extension**
 
-- This project was extended by applying linear regression to model the relationship between opening stock price and company revenue at Tesla after a logarithmic transformation to improve normality and model assumptions. - Diagnostic tools, including Q-Q plots, were used to assess residual distributions before and after transformation.
+- This project was extended by applying linear regression to model the relationship between opening stock price and company revenue at Tesla after a logarithmic transformation to improve normality and model assumptions.
+
+- Diagnostic tools, including Q-Q plots, were used to assess residual distributions before and after transformation.
+
 - Model was then applied to predict the effect of a hypothetical 10% increase in the company's revenue, with results back-transformed to the original scale and accompanied by 95% confidence and prediction intervals,       illustrating both the expected change in the mean stock price and the variability in individual predictions.
 
 
