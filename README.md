@@ -26,16 +26,6 @@ Key questions:
     
 - Produce publication-ready charts for TSLA and GME.
 
-- Implement a reusable plotting function for time-series data.
-    
-- Extract stock prices with yfinance.
-    
-- Scrape revenue tables with requests + BeautifulSoup.
-    
-- Clean/merge the data for analysis.
-    
-- Produce publication-ready charts for TSLA and GME.
-
 ## **Stack**
 
 - Python: pandas, numpy, matplotlib, yfinance, requests, beautifulsoup4
