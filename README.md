@@ -64,6 +64,7 @@ Key questions:
 
 ## **Extension**
 
-This project was extended by applying linear regression to model the relationship between opening stock price and company revenue at Tesla after a logarithmic transformation to improve normality and model assumptions. Diagnostic tools, including Q-Q plots, were used to assess residual distributions before and after transformation. The model was then applied to predict the effect of a hypothetical 10% increase in the company's revenue, with results back-transformed to the original scale and accompanied by 95% confidence and prediction intervals, illustrating both the expected change in the mean stock price and the variability in individual predictions.
+- This project was extended by applying linear regression to model the relationship between opening stock price and company revenue at Tesla after a logarithmic transformation to improve normality and model assumptions. - Diagnostic tools, including Q-Q plots, were used to assess residual distributions before and after transformation.
+- Model was then applied to predict the effect of a hypothetical 10% increase in the company's revenue, with results back-transformed to the original scale and accompanied by 95% confidence and prediction intervals,       illustrating both the expected change in the mean stock price and the variability in individual predictions.
 
 
