@@ -14,6 +14,27 @@ Key questions:
 2. What does their revenue trend look like?
 3. How do price movements relate to revenue changes?
 
+## Contents
+
+| Jupiter notebook and README               | Description                                                        |
+|--------------------|--------------------------------------------------------------------|
+| `claims_model_static.R`    | Static SIS model with fixed β, γ and MH inference                  |
+| `claims_model_time_varying.R` | Time-varying β(t), γ(t) inference via component-wise MH sampling |
+| `README.md`         | Project overview (this file)                                      |
+
+| Figures                                                           | Description                                             |
+| -------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| `Histogram_of_Posterior_of_Beta_(Static_SIS_model).png`                                | Posterior distribution of fixed β                       |
+| `Histogram_of_Posterior_of_Gamma_(Static_SIS_model).png`                               | Posterior distribution of fixed γ                       |
+| `Trace_of_Beta_(Static_SIS_model).png`                                                 | MCMC trace plot for fixed β                             |
+| `Trace_of_Gamma_(Static_SIS_model).png`                                                | MCMC trace plot for fixed γ                             |
+| `Autocorrelation_plot_of_Beta_Samples_(Static_SIS_model).png`                          | Autocorrelation of β samples (static model)             |
+| `Autocorrelation_plot_of_Gamma_Samples_(Static_SIS_model).png`                         | Autocorrelation of γ samples (static model)             |
+| `Plot_of_Simulated_claims_path_(Static_SIS_model).png`                                 | Simulated claims path over time (Static SIS model)      |
+| `Plot_of_Posterior_Predictive_Claim_Paths_for_five_sims_(Static_SIS_model).png`        | Posterior predictive claim paths (static model, 5 sims) |
+| `Plot_number_of_Active_and_Susceptible_Policyholders_over_Time_(Static_SIS_model).png` | SIS model dynamics (S and I)                            |
+
+
 ## **Objectives**
 
 - Implement a reusable plotting function for time-series data.
